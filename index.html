@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: pink;
+      }
+
+      .center {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 6rem;
+        /* background-color: lightblue; */
+        /* padding: 10px; */
+        /* width: 90vw; */
+      }
+
+      .btn-center {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* background-color: lightblue; */
+        padding: 0.625rem;
+        margin: 0.625rem;
+        margin-top: 5rem;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .btn-design {
+        background-color: pink;
+        color: black;
+        font-size: medium;
+        font-weight: bold;
+        padding: 0.313rem;
+        border: black solid;
+        transition: 1.1s all;
+      }
+
+      .btn-design:hover {
+        background-color: black;
+        color: white;
+        font-size: medium;
+        font-weight: bold;
+        padding: 5px;
+        border: black solid;
+        transition: 2.5 all;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <form id="userInputForm" class="center">
+      <h1>PLEASE ENTER YOUR NAME</h1>
+      <input type="text" id="userInputField" placeholder="Enter your name..." />
+      <button type="button" class="submit">Submit</button>
+    </form>
+    <div class="center" id="welcome">
+      <h1 class="welcome hide">WELCOME</h1>
+    </div>
+    <button class="nextButton btn-design btn-center hide">Next</button>
+    <div id="instruction0" class="hide center">
+      <h1>PLEASE PICK A NUMBER IN YOUR MIND</h1>
+    </div>
+    <script src="script.js"></script> -->
+    <form id="userInputForm" class="center">
+      <h1>PLEASE ENTER YOUR NAME</h1>
+      <input type="text" id="userInputField" placeholder="Enter your name..." />
+      <button type="button" class="submit">Submit</button>
+    </form>
+
+    <div class="center" id="welcome">
+      <h1 class="hide">WELCOME</h1>
+    </div>
+    <button class="btn-design btn-center hide">NEXT</button>
+    <p class="instruction1 hide center">
+      click next if you've picked a number in your mind then follow the
+      instructions.
+    </p>
+    <button id="button" class="hide btn-center">NEXT</button>
+    <p id="result" class="center"></p>
+    <!-- <p class="restart">RESTART</p> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
